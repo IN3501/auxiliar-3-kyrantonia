@@ -6,3 +6,6 @@ def index(request):
 
 def inputs(request):
 	return render(request, 'inputs.html')
+
+def form(request):
+	return render(request, 'form.html')
